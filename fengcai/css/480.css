@@ -1,0 +1,161 @@
+h2{
+	font-size: 22px;
+	height: 70px;
+	line-height: 70px;
+}
+nav>ul{
+	display: none;
+}
+nav .text{
+	color:transparent;
+	height: 40px;
+	line-height: 40px;
+	display: block;
+}
+.aaaa{
+	display: none;
+	height: 60px;
+}
+#yincang li{
+	width: 25%;
+	font-size: 12px;
+}
+.guanbi{
+	display: block;
+}
+.header .logo{
+	height: 30px;
+	padding-top: 10px;
+}
+/*header end************************************************************/
+.concent{
+	padding-top: 55px;
+}
+.banner{
+	float: none;
+	width: 100%;
+}
+aside,article{
+	width: 100%;
+	float: none;
+}
+aside,article{
+	width: 100%;
+	float: none;
+}
+article{
+	padding-bottom: 10px;
+}
+article p:nth-of-type(1){
+	margin-top:24px;
+}
+aside{
+	border-right: 0px;
+}
+aside ul{
+	width: 100%;
+	padding: 0;
+	padding-left: 0%;
+}
+aside ul li{
+	width: 33%;
+	float: left;
+}
+aside ul li{
+	border-bottom: 0px;
+}
+aside ul li h2{
+	height: 68px;
+	line-height: 68px;
+}
+aside ul li a{
+	font-size: 18px;
+}
+aside ul li img{
+	width:44px;
+	height: 40px;
+	padding-left: 30.5%;
+}
+aside ul li:nth-of-type(5) h2{
+	margin-top:-3px;
+}
+aside ul li:nth-of-type(5) img,aside ul li:nth-of-type(3) img{
+	height:43px;
+}
+aside ul li:nth-of-type(6) img{
+	padding-top: 12px;
+	height: 48px;
+}
+aside ul li h2 {
+	height: 42px;
+	line-height: 42px;
+	width:100%;
+	text-align: center;
+}
+aside ul li h2 span{
+	display: none;
+}
+
+
+.bx-wrapper .bx-next,.bx-wrapper .bx-prev{
+	display: block;
+}
+
+.bx-wrapper .bx-pager.bx-default-pager a {
+	background: #ded3d1;
+	text-indent: -9999px;
+	display: block;
+	width: 40px;
+	height: 8px;
+	margin: 0 5px;
+	outline: 0;
+	opacity: 0.5;
+}
+
+.bx-wrapper .bx-pager.bx-default-pager a:hover,
+.bx-wrapper .bx-pager.bx-default-pager a.active {
+	background: #fc9f3f;
+}
+.bx-wrapper .bx-pager {
+	text-align: center;
+	font-size: .85em;
+	font-family: Arial;
+	font-weight: bold;
+	color: #666;
+	padding-top: 20px;
+}
+
+/*footer star**********************************************************/
+footer ul:nth-of-type(1){
+	display: block;
+	padding-bottom: 20px;
+}
+footer ul:nth-of-type(2){
+	display: none;
+}
+footer ul li{
+	float: left;
+	width: 65%;
+	color: #FFFFFF;
+	font-size: 12px;
+	line-height: 30px;
+	margin: 0 auto;
+	padding-left: 30%;
+}
+footer ul li span{
+	display: block;
+	float: none;
+	width: 65px;
+	cursor: pointer;
+}
+
+.nones{
+	display: none !important;
+}
+
+
+
+
+
+
+

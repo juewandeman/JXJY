@@ -1,0 +1,227 @@
+.text,.dianji,.menu-total{
+	display: none !important;
+}
+a>div,.kecheng ul li div{
+	display: block;
+}
+h2{
+	font-size: 36px;
+	height: 118px;
+	line-height: 118px;
+}
+.banner{
+	margin-top: 80px;
+}
+
+/*学院服务开始********************************/
+.fuwu ul li img:nth-of-type(2){
+	display: block;
+}
+.fuwu ul li:nth-of-type(1){
+	width: 28.2%;
+}
+.fuwu ul li:nth-of-type(2){
+	width: 23.7%;
+}
+.fuwu ul li:nth-of-type(3){
+	width: 25%;
+}
+.fuwu ul li:nth-of-type(4){
+	width: 23%;
+}
+.fuwu ul li img{
+	float: left;
+	padding: 0 28px 0 13px;	
+}
+
+.fuwu ul li:nth-of-type(1) img{
+	padding: 0 19px 0 29px;
+}
+.fuwu ul li {
+	position: relative;
+	padding-bottom: 8px;
+	border-bottom: 4px solid transparent;
+}
+.fuwu ul li img:nth-of-type(2){
+	position: absolute;
+	z-index: -1;
+}
+.fuwu ul li:hover{
+	border-bottom: 4px solid #FA9634;
+}
+.fuwu ul li:hover img:nth-of-type(2){
+	z-index: 10;
+}
+.fuwu ul li .right p{
+	display: block;
+}
+/*学院服务结束********************************/
+/*课程设置开始********************************/
+.kecheng ul li{
+	float: left;
+	width:33%;
+	border-left: 1px solid #dedede;
+	border-top: 1px solid #dedede;
+	overflow: hidden;
+	position: relative;
+}
+.kecheng ul>li:nth-of-type(3n){
+	border-right: 1px solid #dedede;	
+}
+.kecheng ul>li:nth-of-type(7),.kecheng ul>li:nth-of-type(8),.kecheng ul>li:nth-of-type(9){
+	border-bottom: 1px solid #dedede;	
+}
+.kecheng ul div li{
+	border-bottom: 1px solid #dedede;	
+}
+.kecheng ul div li:nth-of-type(2){
+	border-right: 1px solid #dedede;	
+	border-bottom: 0px solid #dedede;			
+}
+.kecheng ul div li:nth-of-type(1){
+	border-bottom: 0px solid #dedede;			
+}
+.kecheng ul div li:nth-of-type(5){
+	border-right: 1px solid #dedede;			
+}
+.kecheng ul li div{
+	width: 270px;
+    height: 165px;
+    color: #fff;
+    background: rgba(144,193,102,0);
+    padding: 35px 36px 0px 25px;
+	position: absolute;
+	left: 0;
+	top: 0;
+	transition: .5s;
+	cursor: pointer;
+	display: none;
+}
+
+.kecheng ul li:hover div{
+    background: rgba(144,193,102,1);	
+    display: block;
+}  
+.kecheng ul li:nth-of-type(2n) div{
+	background:rgba(250,150,52,1);
+}  
+.kecheng ul li div h4{
+	font-size: 24px;
+	font-weight: 100;
+}
+.kecheng ul li div p{
+    font-size: 14px;
+    line-height: 22px;
+    margin-top: 10px;	
+}
+/*课程设置结束********************************/
+.fengcai ul li{
+	width: 30%;
+	margin-right: 5%;
+}
+.fengcai ul li p a:hover{
+	color: #FA9634;
+}
+.fengcai ul li:nth-of-type(3n){
+	margin-right: 0 ;
+}
+
+
+.jiuye a{
+	width: 16%;
+	margin-right: 0.8%;
+	
+}
+.jiuye a:nth-of-type(6n){
+	margin-right: 0;
+}
+
+/*学院作品开始*********************************/
+.zuopin a div {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 100;
+    background: #fa9634;
+    color: #fff;
+    text-align: center;
+    filter: alpha(opacity=90);
+    opacity: 0;
+    transition: .5s;
+}
+.zuopin a:hover div{
+    opacity: 0.9;	
+}
+.zuopin a div h4{
+    font-size: 24px;
+    margin-top: 46px;
+}
+.zuopin a div p {
+    font-size: 18px;
+    margin-top: 22px;
+}
+.zuopin a div p span {
+    display: block;
+    margin-top: 27px;
+}
+/*学院作品结束*********************************/
+
+/*明星学子开始*********************************/
+.xuezi a{
+	width: 24.4%;
+	margin: 0 0.8% 0.8% 0;	
+}
+.xuezi a:nth-of-type(4n){
+	margin-right: 0;
+}
+.xuezi a div {
+    width: 244px;
+    height: 200px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 100;
+    background: #90c166;
+    color: #fff;
+    text-align: center;
+    opacity: 0;
+    transition: .5s;
+}
+.xuezi a:hover div {
+    opacity: 0.9;	
+}
+.xuezi a div p {
+    font-size: 18px;
+    margin-top: 51px;
+}
+.xuezi a div p span {
+    display: block;
+    margin-top: 18px;
+}
+.xuezi a div h4 {
+    font-size: 24px;
+    margin-top: 20px;
+}
+/*明星学子结束*********************************/
+.jiuye a{
+	margin: 0 0.8% 0.8% 0;
+}
+.jiuye a:nth-of-type(6n){
+	margin-right:0 ;
+}
+footer ul li{
+	width: 24.3%;
+}
+footer ul li:nth-of-type(4){
+	width: 26.6%;
+}
+
+
+
+
+
+
+
+

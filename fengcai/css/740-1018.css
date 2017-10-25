@@ -1,0 +1,147 @@
+.text,.dianji,.menu-total{
+	display: none;
+}
+h2{
+	font-size: 30px;
+	height: 110px;
+	line-height: 110px;
+}
+/*header end************************************************************/
+.concent{
+	padding-top: 120px;
+}
+aside ul li{
+	width: 95%;
+}
+aside ul li h2{
+	height: 68px;
+	line-height: 68px;
+}
+aside ul li a{
+	font-size: 21px;	
+}
+
+aside ul li:nth-of-type(1){
+    border-bottom: 3px solid #fa9634;
+}
+aside ul li img{
+	min-width: 20px;
+}
+aside ul li:nth-of-type(2) img{
+	margin-top: 3px;
+}
+article p:nth-of-type(1){
+	margin-top:114px;
+}
+
+.bx-wrapper .bx-next,.bx-wrapper .bx-prev{
+	display: none;
+
+}
+.bx-wrapper .bx-pager a:before{
+	top:-17.5%;
+}
+.bx-wrapper .bx-pager a:after{
+	top: -24%;
+}
+
+.bx-wrapper .bx-pager {
+	width: 99.2%;	
+	top: 100%;
+	background: url(../img/pic.jpg) repeat;
+	height: 91px;
+	padding-left: 0.9%;
+
+}
+.bx-wrapper .bx-pager div{
+	width: 16.4%;
+	height: 65px;	
+	margin: 2% 1.72%;
+	position: relative;
+	z-index: 100;
+}
+.bx-wrapper .bx-pager div:nth-of-type(1) a{
+	background: url(../img/xsjx_11.jpg) no-repeat left top;
+	background-size:100% 100%;	
+}
+.bx-wrapper .bx-pager div:nth-of-type(2) a{
+	background: url(../img/xsjx_22.jpg) no-repeat left top;
+	background-size:100% 100%;	
+}
+.bx-wrapper .bx-pager div:nth-of-type(3) a{
+	background: url(../img/xsjx_33.jpg) no-repeat left top;
+	background-size:100% 100%;	
+}
+.bx-wrapper .bx-pager div:nth-of-type(4) a{
+	background: url(../img/xsjx_44.jpg) no-repeat left top;
+	background-size:100% 100%;	
+}
+.bx-wrapper .bx-pager div:nth-of-type(5) a{
+	background: url(../img/xsjx_55.jpg) no-repeat left top;
+	background-size:100% 100%;
+}
+.bx-wrapper .bx-pager div:first-of-type:before{
+	left: -17%;
+	padding-left: 15%;
+}
+
+.bx-wrapper .bx-pager.bx-default-pager a:hover:before,
+.bx-wrapper .bx-pager.bx-default-pager a.active:before,
+.bx-wrapper .bx-pager.bx-default-pager a:hover:after,
+.bx-wrapper .bx-pager.bx-default-pager a.active:after{
+	display: block;
+}
+.bx-wrapper .bx-pager a:before{
+	content: '';
+	width: 100%;
+	height: 138%;	
+	padding: 0 11%;
+	position: absolute;
+	background: #000;
+	left: -13%;
+	top:-20%;
+	display: none;
+	border: 1px solid #5D4C8C;
+	z-index: -100;	
+}
+.bx-wrapper .bx-pager a:after{
+	content: '';
+	width: 15px;
+	height:15px;
+	background: #000;
+	position: absolute;
+	left: 45%;
+	top: -27%;
+	transform: rotate(45deg);
+	display: none;
+	z-index: -100;
+}
+
+/*footer star**********************************************************/
+footer ul{
+	width: 80%;
+	padding-left: 20%;
+}
+footer ul li{
+	float: left;
+	width: 48.3%;
+	color: #FFFFFF;
+	font-size: 12px;
+	line-height: 30px;
+	padding-top: 10px;
+}
+footer ul li:nth-of-type(1n){
+	margin-right:1%;
+}
+footer ul li p{
+	float: left;
+}
+
+
+
+
+
+
+
+
+

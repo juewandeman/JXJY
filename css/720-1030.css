@@ -1,0 +1,78 @@
+.text,.dianji,.menu-total{
+	display: none !important;
+}
+a>div{
+	display: none;
+}
+h2{
+	font-size: 30px;
+	height: 110px;
+	line-height: 110px;
+}
+.banner{
+	margin-top: 80px;
+}
+.header .logo img{
+	display: block;
+	padding-left: 8%;
+	padding-top: 3%;
+}
+/*课程设置*/
+.fuwu ul li{
+	float: left;
+	width: 20%;
+	padding-left: 5%;
+}
+.fuwu ul li img{
+	padding-left: 5%;
+}
+.fuwu ul li:nth-of-type(2) img{
+	padding-left:10%;
+}
+
+.fengcai ul li{
+	width: 30%;
+	margin-right: 5%;
+}
+.fengcai ul li:nth-of-type(3n){
+	margin-right: 0 ;
+}
+.fengcai ul li p{
+	font-size: 10px;
+}
+
+.xuezi a{
+	width: 32.5%;
+	margin-right: 1.25%;	
+	margin-bottom: 1.25%;
+}
+.xuezi a:nth-of-type(3n){
+	margin-right: 0;
+}
+
+.jiuye a{
+	width: 32.5%;
+	margin-right: 1.25%;	
+	margin-bottom: 1.25%;
+}
+.jiuye a:nth-of-type(3n){
+	margin-right: 0;
+}
+footer ul{
+	width: 80%;
+	padding-left: 20%;
+}
+footer ul li{
+	float: left;
+	width: 48.3%;
+	color: #FFFFFF;
+	font-size: 12px;
+	line-height: 30px;
+	padding-top: 10px;
+}
+footer ul li:nth-of-type(1n){
+	margin-right:1%;
+}
+footer ul li p{
+	float: left;
+}

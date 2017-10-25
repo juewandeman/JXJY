@@ -1,0 +1,40 @@
+.text,.dianji,.menu-total{
+	display: none;
+}
+
+h2{
+	font-size: 36px;
+	height: 118px;
+	line-height: 118px;
+}
+.concent{
+	padding-top: 120px;
+}
+aside ul li:hover{
+    border-bottom: 3px solid #fa9634;	
+}
+aside ul li:hover img{
+	z-index: 0;
+}
+aside ul{
+	width: 94.33%;
+	padding-right: 5.66%;
+}
+aside ul li:nth-of-type(1){
+    border-bottom: 3px solid #fa9634;
+}
+/*footer star**********************************************************/
+footer ul li{
+	width: 24.3%;
+}
+footer ul li:nth-of-type(4){
+	width: 26.6%;
+}
+
+
+
+
+
+
+
+

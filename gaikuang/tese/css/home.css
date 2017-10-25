@@ -1,0 +1,269 @@
+.box{
+	width: 100%;
+	min-width: 370px;
+}
+h2{
+	width: 100%;
+	color: #000004;
+	font-weight: 100;
+}
+
+/*通用*********/
+header{
+	width: 100%;
+	background: #333333;
+	position: fixed;
+	left: 0;
+	top: 0;
+	z-index: 10000;
+}
+.header{
+	max-width:1000px ;
+	margin: 0 auto;
+}
+.header .logo{
+	width: 26.6%;
+	height: 70px;
+	padding-top: 10px;
+	float: left;
+}
+.header .logo img{
+	width: 64%;
+	cursor: pointer;
+}
+.header nav{
+	float: left;
+	width: 73.4%;
+	position: relative;
+}
+
+.header nav ul li{
+	float: left; 
+	width:12.67%;  
+	height: 80px;
+	line-height: 80px;	
+	text-align: center;
+	transition: .5s;
+}
+.header nav ul li:nth-of-type(1){
+	float: left; 
+	width:8.85%; 
+ 
+}
+.header nav ul li:nth-of-type(2){
+ 	background: #5c5c5c;
+}
+
+.header nav>ul>li:hover{
+	background: #5c5c5c;
+}
+.header nav ul li a{
+	font-size: 14px;
+	color: #fdfef9;
+}
+nav .text{
+	color: #FFFFFF;
+	font-size: 18px;
+	height: 80px;
+	line-height: 80px;
+	display: none;
+	text-indent: 18%;
+}
+.dianji{
+	width: 8%;
+	position: absolute;
+	right: 7%;
+	top:27%;
+}
+.dianji img{
+	width: 100%;
+}
+.none{
+	display: none;
+}
+.menu-total{
+	width:100%;
+	background: #333;
+	z-index: 100;
+	position: relative;
+}
+.pudian{
+	display: none;
+}
+#yincang li{
+	float: left;
+	width: 12.5%;
+	height: 36px;
+	line-height: 36px;
+	text-align: center;
+	font-size: 12px;
+	background: #666666;
+}
+#yincang li a{
+	color: #FFFFFF;
+}
+#yincang li a:active{
+	color: #ccc;
+}
+#yincang li:nth-of-type(2){
+	background: #333333;
+}
+.guanbi{
+	width: 6%;
+	position: fixed;
+	right:5.1%;
+	top: -0%;
+	z-index: 10000;
+	display: none;
+}
+.guanbi img{
+	width: 100%;
+}
+/*header end************************************************************/
+.concent{
+	max-width: 986px;
+	padding: 0 15px;
+	margin: 0 auto;
+}
+.concent img{
+	width: 100%;
+}
+aside{
+	width: 26.87%;
+	float: left;
+	border-right:1px solid #bababa;
+	margin-right: 5%;
+}
+aside ul{
+	width: 94.33%;
+	padding-right: 5.66%;
+}
+aside ul li{
+	width: 64%;
+	padding-left:36%;
+	background:url(../../../img/xygk_02.jpg) no-repeat 18px 20px;
+	border-bottom: 3px solid transparent;	
+	cursor: pointer;
+}
+aside ul li h2{
+	height: 74px;
+	line-height: 74px;	
+}
+aside ul li a{
+	font-size: 22px;	
+ 	color: #13120d;	
+}
+aside ul li:nth-of-type(2){
+	background:url(../../../img/xygk_07.jpg) no-repeat 20px 18px;	
+	border-bottom: 3px solid #ff922b;	
+}
+
+aside ul li:nth-of-type(1):hover{
+	background:url(../../../img/xygk_03.jpg) no-repeat 18px 20px;	
+	border-bottom: 3px solid #ff922b;		
+}
+article{
+	max-width: 669px;
+	width: 67.85%;
+	float: left;
+	padding-bottom: 141px;
+}
+article h4{
+    font-size: 18px;
+    color: #FA9634; 	
+}
+article h4:nth-of-type(2){
+	margin-top:7px;	
+}
+article h4:nth-of-type(3){
+	margin-top:4px;
+}
+article h4:nth-of-type(4),article h4:nth-of-type(5){
+	margin-top:6px;	
+}
+article  p {
+    font-size: 16px;
+    line-height: 28px;
+    color: #222222;
+}
+article  p:nth-of-type(1){
+	margin-top:9px;
+}
+article  p:nth-of-type(4){
+	margin-top:7px;
+}
+article  p:nth-of-type(7){
+	margin-top:7px;
+}
+article  p:nth-of-type(10){
+	margin-top:8px;
+}
+article  p:nth-of-type(13){
+	margin-top:7px;
+}
+/*footer star**********************************************************/
+footer{
+	width: 100%;
+	background: #333333;
+}
+
+footer ul{
+	max-width: 1000px;
+	margin: 0 auto;
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+footer ul li{
+	float: left;
+	line-height: 29px;
+	color: #FFFFFF;
+	font-size: 14px;
+}
+footer ul li span{
+	float: left;
+}
+footer ul li p{
+	float: left;
+}
+/*footer结束*********************************/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

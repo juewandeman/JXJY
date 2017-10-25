@@ -1,0 +1,232 @@
+h2{
+	font-size: 22px;
+	height: 70px;
+	line-height: 70px;
+	padding-top: 20px;
+}
+nav>ul{
+	display: none;
+}
+nav .text{
+	color:transparent;
+	height: 40px;
+	line-height: 40px;
+	display: block;
+}
+.aaaa{
+	display: none;
+	height: 80px;
+}
+#yincang li{
+	width: 25%;
+	font-size: 12px;
+}
+.guanbi{
+	display: block;
+}
+
+
+.header .logo img{
+	display: block;
+	padding-left: 8%;
+}
+.banner{
+	margin-top: 40px;
+}
+
+
+.fuwu ul li{
+	float: left;
+	width: 20%;
+	padding-left: 5%;
+}
+.fuwu ul li img{
+	padding-left: 5%;
+}
+.fuwu ul li:nth-of-type(2) img{
+	padding-left:18%;
+}
+.fuwu ul li .right{
+	width:100%
+}
+.fuwu ul li .right a{
+	display: block;
+	padding-left: 18%;
+}
+.fuwu ul li .right a:nth-of-type(1){
+	display: none;
+	
+}
+.fuwu ul li a span{
+	display: none;
+}
+
+/*课程设置*/
+.kecheng ul li{
+	float: left;
+	width:45%;
+	margin: 0 2%;
+}
+.kecheng ul li:nth-of-type(9){
+	width: 45%;
+	padding-left:27.5% ;
+	margin: 0 auto;
+}
+
+.fengcai h2{
+	padding-top: 20px;
+}
+.fengcai ul li{
+	width: 46.154%;
+	margin-right:7.69%;
+	font-size: 14px;
+}
+.fengcai ul li:nth-of-type(2n){
+	margin-right: 0;
+}
+.fengcai ul li a{
+	padding-top: 18px;
+	font-size: 16px;
+}
+.fengcai ul li p{
+	display: none;
+}
+
+.zuopin a{
+	width: 32.5%;
+	margin-right: 1.25%;
+	margin-bottom: 1.25%;
+}
+.zuopin a:nth-of-type(3n){
+	margin-right: 0;
+}
+
+.xuezi a{
+	width: 32.5%;
+	margin-right: 1.25%;
+	margin-bottom: 1.25%;
+}
+.xuezi  a:nth-of-type(3n){
+	margin-right: 0;
+}
+.jiuye a{
+	width: 32.5%;
+	margin-right: 1.25%;
+	margin-bottom: 1.25%;
+}
+.jiuye  a:nth-of-type(3n){
+	margin-right: 0;
+}
+
+
+footer ul li{
+	float: left;
+	width: 65%;
+	color: #FFFFFF;
+	font-size: 12px;
+	line-height: 30px;
+	margin: 0 auto;
+	padding-left: 30%;
+}
+footer ul li span{
+	display: block;
+	width: 65px;
+	cursor: pointer;
+}
+footer ul li p{
+	max-width: 230px;
+}
+
+.nones{
+	display: none !important;
+}
+
+.gengduo{
+	display: block;	
+	width: 5%;
+	opacity: 0.8;
+	cursor: pointer;
+	position:absolute;
+	top:100%;
+	left: 47%;
+}
+.gengduo img,.fanhui img{
+	width: 100%;
+}
+.fanhui{
+	width: 5%;	
+	display: block;
+	opacity: 0.8;
+	cursor: pointer;
+	height: 30px;	
+	position:absolute;
+	top:100%;
+	left: 47%;	
+}
+.zuopin_dianji{
+	display: block;	
+	width: 5%;
+	opacity: 0.8;
+	cursor: pointer;
+	position:absolute;
+	top:100%;
+	right: 0%;
+	z-index: 100;
+}
+.zuopin_fanhui{
+	display: block;	
+	width: 15%;
+	opacity: 0.8;
+	cursor: pointer;
+	position:absolute;
+	top: 80%;
+	left: 190%;
+}
+
+.xuezi_dianji{
+	display: block;	
+	width: 5%;
+	opacity: 0.8;
+	cursor: pointer;
+	position:absolute;
+	top:100%;
+	right: 0%;
+	z-index: 100;	
+}
+.xuezi_fanhui{
+	display: block;	
+	width: 15%;
+	opacity: 0.8;
+	cursor: pointer;
+	position:absolute;
+	top: 110%;
+	right: 0;
+	z-index: 100;		
+}
+.jiuye_dianji{
+	display: block;	
+	width: 5%;
+	opacity: 0.8;
+	cursor: pointer;
+	position:absolute;
+	top:83%;
+	right: 0%;
+}
+.jiuye_fanhui{
+	display: none;
+	width: 5%;
+	opacity: 0.8;
+	cursor: pointer;
+	position:absolute;
+	top:90%;
+	right: 0;	
+}
+.zuopin_dianji img,.zuopin_fanhui img,.xuezi_dianji img,.xuezi_fanhui img,.jiuye_dianji img,.jiuye_fanhui img{
+	width: 100%;
+}
+
+
+
+
+
+

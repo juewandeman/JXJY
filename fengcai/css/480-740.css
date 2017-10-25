@@ -1,0 +1,164 @@
+h2{
+	font-size: 26px;
+	height: 90px;
+	line-height: 90px;
+}
+nav>ul{
+	display: none;
+}
+nav .text{
+	color: #FFFFFF;
+	font-size: 18px;
+	height: 60px;
+	line-height: 60px;
+	display: block;
+}
+.header .logo{
+	height: 50px;
+	padding-top: 10px;
+}
+.aaaa{
+	display: none;
+	height: 30px;
+}
+#yincang li{
+	text-align: center;
+}
+.guanbi{
+	display: block;
+}
+/*header end************************************************************/
+
+.concent{
+	padding-top: 80px;
+}
+.banner{
+	float: none;
+	width: 100%;
+}
+aside,article{
+	width: 100%;
+	float: none;
+}
+
+article p:nth-of-type(1){
+	margin-top:20px;
+}
+aside{
+	border-right: 0px;
+}
+aside ul{
+	width: 90%;
+	padding-left: 5%;
+}
+aside ul li{
+	width: 33%;
+	float: left;
+}
+
+aside ul li img{
+	float: none;
+	width:46px;
+	height: 40px;
+	padding-left: 35%;
+}
+aside ul li:nth-of-type(3) h2{
+	margin-top: -4px;
+}
+aside ul li:nth-of-type(5) h2{
+	margin-top:-6px;
+}
+aside ul li:nth-of-type(3) img,aside ul li:nth-of-type(6) img{
+	height: 45px;
+}
+aside ul li:nth-of-type(6) img{
+	padding-top: 15px;
+}
+aside ul li:nth-of-type(5) img,aside ul li:nth-of-type(6) img{
+	height:46px;
+}
+aside ul li h2{
+	width: 100%;
+	height: 56px;
+	line-height:56px;
+	float: none;
+	padding-left: 0;
+	text-align: center;
+}
+aside ul li a{
+	font-size: 20px;
+}
+aside ul li:nth-of-type(1){
+    border-bottom: 3px solid #fa9634;
+}
+
+.bx-wrapper .bx-next,.bx-wrapper .bx-prev{
+	display: none;
+}
+.bx-wrapper .bx-pager a:before{
+	top:-17.8%;
+}
+.bx-wrapper .bx-pager a:after{
+	top: -26%;
+}
+.bx-wrapper .bx-next,.bx-wrapper .bx-prev{
+	display: block;
+}
+
+.bx-wrapper .bx-pager.bx-default-pager a {
+	background: #ded3d1;
+	text-indent: -9999px;
+	display: block;
+	width: 40px;
+	height: 8px;
+	margin: 0 5px;
+	outline: 0;
+	opacity: 0.5;
+}
+
+.bx-wrapper .bx-pager.bx-default-pager a:hover,
+.bx-wrapper .bx-pager.bx-default-pager a.active {
+	background: #fc9f3f;
+}
+.bx-wrapper .bx-pager {
+	text-align: center;
+	font-size: .85em;
+	font-family: Arial;
+	font-weight: bold;
+	color: #666;
+	padding-top: 20px;
+}
+
+/*footer star**********************************************************/
+footer ul {
+	padding-left: 10%;
+}
+footer ul li{
+	float: left;
+	width: 48%;
+	color: #FFFFFF;
+	font-size: 12px;
+	line-height: 30px;
+	padding-bottom: 15px;
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,108 @@
+h2{
+	font-size: 22px;
+	height: 70px;
+	line-height: 70px;
+}
+nav>ul{
+	display: none;
+}
+nav .text{
+	color:transparent;
+	height: 40px;
+	line-height: 40px;
+	display: block;
+}
+.aaaa{
+	display: none;
+	height: 60px;
+}
+#yincang li{
+	width: 25%;
+	font-size: 12px;
+}
+.guanbi{
+	display: block;
+}
+.header .logo{
+	height: 30px;
+	padding-top: 10px;
+}
+.header .logo img{
+	display: block;
+	padding-left: 8%;
+}
+/*header end************************************************************/
+.concent{
+	padding-top: 40px;
+}
+
+aside{
+	width: 90%;
+	float: none;
+	border-right:0px;
+	border-bottom: 1px solid #bababa;
+	margin: 0 auto 20px auto;
+	padding: 0 5%;
+}
+aside ul{
+	width: 90%;
+	padding:0 5% 5% 5%;
+}
+aside ul li{
+	width: 25%;
+	float: left;
+	padding-left: 25%;
+	float: left;
+}
+aside ul li:nth-of-type(2){
+	float: right;
+}
+aside ul li:nth-of-type(2):hover{
+	background:url(../../img/xygk_06.jpg) no-repeat 20px 18px;	
+	border-bottom: 3px solid transparent;		
+}
+article{
+	width: 100%;
+	float: none;
+	padding-bottom: 45px;
+}
+aside ul li h2{
+	width: 100%;
+}
+aside ul li h2{
+	height: 64px;
+	line-height: 68px;	
+}
+aside ul li a{
+	font-size: 17px;	
+ 	color: #13120d;	
+}
+/*footer star**********************************************************/
+
+footer ul li{
+	float: left;
+	width: 65%;
+	color: #FFFFFF;
+	font-size: 12px;
+	line-height: 30px;
+	margin: 0 auto;
+	padding-left: 30%;
+}
+footer ul li span{
+	display: block;
+	width: 65px;
+	cursor: pointer;
+}
+footer ul li p{
+	max-width: 230px;
+}
+.nones{
+	display: none !important;
+}
+
+
+
+
+
+
+

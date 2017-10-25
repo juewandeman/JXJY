@@ -1,0 +1,316 @@
+.box{
+	width: 100%;
+}
+a>div,.kecheng li>div{
+	display: none;
+}
+h2{
+	width: 100%;
+	color: #000004;
+	font-weight: 100;
+}
+.fuwu ul li img:nth-of-type(2){
+	display: none;
+}
+.pudian{
+	display: none;
+}
+
+/*通用*********/
+header{
+	width: 100%;
+	background: #333333;
+	position: fixed;
+	left: 0;
+	top: 0;
+	z-index: 10000;
+}
+.header{
+	max-width:1000px ;
+	margin: 0 auto;
+}
+.header .logo{
+	width: 26.6%;
+	height: 99%;
+	padding-top: 1%;
+	float: left;
+}
+.header .logo img{
+	width: 64%;
+	margin:auto 0;
+	min-width: 90px;
+}
+.header nav{
+	float: left;
+	width: 73.4%;
+	position: relative;
+}
+
+.header nav ul li{
+	float: left; 
+	width:12.67%;  
+	height: 80px;
+	line-height: 80px;	
+	text-align: center;
+	transition: .5s;
+}
+.header nav ul li:nth-of-type(1){
+	float: left; 
+	width:8.85%; 
+	background: #5c5c5c;
+}
+.header nav>ul>li:hover{
+	background: #5c5c5c;
+}
+.header nav ul li a{
+	font-size: 14px;
+	color: #fdfef9;
+}
+nav .text{
+	color: #FFFFFF;
+	font-size: 18px;
+	height: 80px;
+	line-height: 80px;
+	display: none;
+	text-indent: 18%;
+}
+.dianji{
+	width: 8%;
+	position: absolute;
+	right: 7%;
+	top:30%;
+}
+.dianji img{
+	width: 100%;
+}
+.none{
+	display: none;
+}
+.menu-total{
+	width:100%;
+	z-index: 100;
+	position: relative;
+
+}
+#yincang li{
+	float: left;
+	width: 12.5%;
+	height: 36px;
+	line-height: 36px;
+	text-align: center;
+	font-size: 12px;
+	background: #666;
+	border-top:1px solid #666 ;
+	border-bottom:1px solid #666 ;
+}
+
+#yincang li a{
+	color: #FFFFFF;
+}
+#yincang li a:active{
+	color: #ccc;
+}
+#yincang li:nth-of-type(1){
+	background: #333333;
+}
+.guanbi{
+	width: 6%;
+	position: fixed;
+	right:5.1%;
+	top: -0%;
+	z-index: 10000;
+	display: none;
+}
+.guanbi img{
+	width: 100%;
+}
+/*导航结束*/
+
+/*中间部分开始*/
+.concent{
+	max-width:1000px;
+	margin: 0 auto;
+	padding: 0 15px;
+}
+/*学院服务开始********************************/
+.fuwu{
+	width: 100%;
+}
+.fuwu ul {
+	padding-top: 6px;
+}
+.fuwu ul li{
+	float: left;
+}
+.fuwu ul li .right{
+	float: left;
+}
+.fuwu ul li .right a{
+	height: 31px;
+	line-height: 31px;
+	font-size: 18px;
+    color: #222;	
+}
+.fuwu ul li .right p{
+	height: 28px;
+	line-height: 28px;
+    font-size: 14px;
+    color: #888;	
+    display: none;
+}
+
+/*学院服务结束********************************/
+
+/*课程设置开始*********************************/
+.kecheng{
+	position: relative;
+}
+.kecheng ul li{
+	float: left;
+	width:33%;
+}
+.kecheng ul li img{
+	width: 100%;
+}
+/*课程设置结束*********************************/
+
+/*校园风采开始*********************************/
+.fengcai{
+	width: 100%;
+}
+.fengcai h2 span{
+	display: block;
+	float: right;
+	height: 40px;
+	padding-right: 10px;
+}
+.fengcai h2 span a{
+	font-size: 16px;
+	color: #fd9c27;
+	font-weight: bold;
+}
+.fengcai ul li{
+	float: left;
+	margin-bottom: 20px;
+}
+.fengcai ul li img{
+	width: 100%;
+}
+
+.fengcai ul li img{
+	cursor: pointer;
+}
+.fengcai ul li p{
+	line-height: 42px;
+	color: #7e8894;
+	font-size: 14px;
+}
+.fengcai ul li a:nth-of-type(2){
+	display: block;
+	padding-top: 24px;
+	height: 18px;
+	line-height: 18px;
+	font-size: 18px;
+	color: #2a2f35;
+}
+
+/*校园风采结束*********************************/
+
+/*学院作品开始*********************************/
+.zuopin{
+	width: 100%;
+	position: relative;
+}
+.zuopin a{
+	display: block;
+	float: left;
+	width: 20%;
+	position: relative;
+}
+.zuopin a img{
+	width: 100%;
+}
+/*学院作品结束*********************************/
+
+/*明星学子开始*********************************/
+.xuezi{
+	width: 100%;
+	position: relative;
+}
+.xuezi a{
+	float: left;
+	position: relative;
+}
+.xuezi a img{
+	width: 100%;
+}
+
+/*明星学子结束*********************************/
+
+/*就业单位开始*********************************/
+.jiuye{
+	width: 100%;
+	padding-bottom: 52px;
+	position: relative;
+}
+.jiuye a{
+	display: block;
+	float: left;
+}
+.jiuye a img{
+	width: 100%;
+}
+
+/*就业单位结束*********************************/
+
+/*footer开始*********************************/
+footer{
+	width: 100%;
+	background: #333333;
+}
+/*footer ul:nth-of-type(1){
+	display: none;
+}*/
+footer ul{
+	max-width: 1000px;
+	margin: 0 auto;
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+footer ul li{
+	float: left;
+	line-height: 29px;
+	color: #FFFFFF;
+	font-size: 14px;
+}
+footer ul li span{
+	display: block;
+	float: left;
+}
+footer ul li p{
+	float: left;
+}
+/*footer结束*********************************/
+.gengduo,.fanhui,.zuopin_dianji,.zuopin_fanhui,.xuezi_dianji,.xuezi_fanhui,.jiuye_dianji,.jiuye_fanhui{
+	display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
